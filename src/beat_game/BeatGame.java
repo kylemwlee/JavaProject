@@ -21,8 +21,8 @@ public class BeatGame extends JFrame {
 		setVisible(true);
 		
 		introBackground = new ImageIcon(Main.class.getResource("../images/IntroBackground.jpg")).getImage();
-		
-
+		Music introMusic = new Music("IntroMusic.mp3", true);
+		introMusic.start();
 }
 
 public void paint(Graphics g) {
